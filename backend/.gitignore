@@ -1,2 +1,18 @@
+# Dependencies
+node_modules/
+
+# Environment variables
 .env
-node_modules
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+
+# Editor files
+.vscode/
+.idea/
