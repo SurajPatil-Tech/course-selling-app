@@ -75,6 +75,15 @@ courseapp/
 │   │   └── utils/
 │   └── package.json
 │
+├── screenshots/
+│   ├── home.png
+│   ├── courses.png
+│   ├── login.png
+│   ├── payment.png
+│   ├── admin-dashboard.png
+│   ├── create-course.png
+│   └── manage-courses.png
+│
 └── README.md
 ```
 
@@ -94,6 +103,12 @@ Features include:
 
 ---
 
+## 💳 Payment Integration
+
+The application integrates **Razorpay** for processing course payments.
+
+---
+
 ## ⚙️ Installation and Setup
 
 ### 1. Clone the Repository
@@ -107,8 +122,6 @@ Move into the project folder:
 ```bash
 cd course-selling-app
 ```
-
----
 
 ### 2. Backend Setup
 
@@ -136,8 +149,6 @@ Start the backend server:
 ```bash
 npm start
 ```
-
----
 
 ### 3. Frontend Setup
 
@@ -174,6 +185,39 @@ npm run dev
 - React Components
 - Protected Routes
 - Full-Stack API Integration
+- Razorpay Payment Integration
+
+---
+
+## 📸 Project Screenshots
+
+### 🏠 Home Page
+
+![Home Page](./screenshots/home.png)
+
+### 📚 Courses Page
+
+![Courses Page](./screenshots/courses.png)
+
+### 🔐 User Login
+
+![User Login](./screenshots/login.png)
+
+### 💳 Course Payment
+
+![Payment Page](./screenshots/payment.png)
+
+### 👨‍💼 Admin Dashboard
+
+![Admin Dashboard](./screenshots/admin-dashboard.png)
+
+### ➕ Create Course
+
+![Create Course](./screenshots/create-course.png)
+
+### 📋 Manage Courses
+
+![Manage Courses](./screenshots/manage-courses.png)
 
 ---
 
